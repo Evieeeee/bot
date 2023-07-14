@@ -6,7 +6,7 @@ module.exports={
 		client = new Client({ intents: [GatewayIntentBits.Guilds,
 		GatewayIntentBits.GuildMessages]});
 
-		client.login('OTUwNTczOTMxMTk3MjY4MDc5.GWf-px.F3yFLVEYlR2gxBYeb8sJZ7-mVmBxn8SCshlZ4g');
+		client.login('xxx');
 
 		channelS = args.channel || 944747304802451467;
 		console.log(channelS);
