@@ -16,7 +16,7 @@ const translate = ''; // does the message need a translation dropdown? ONLY use 
 const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
     const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages] });
 
-    client.login('OTUwNTczOTMxMTk3MjY4MDc5.GWf-px.F3yFLVEYlR2gxBYeb8sJZ7-mVmBxn8SCshlZ4g');
+    client.login('xxx');
 
 executableFunction({ channel, messageContent, colour, description, translate });
 
